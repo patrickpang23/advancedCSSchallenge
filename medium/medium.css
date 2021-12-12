@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+}
+
+.categories {
+    padding-top: 110px;
+    margin: 0 30px;
+  }
+  
+  .row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 40px;
+    margin: 10px auto;
+    max-width: 800px;
+  }
+  
+  .card-image {
+    height: 100%;
+    background: lightgrey;
+  }
+  
+  .card-detail {
+    background: #e5dede;
+    padding: 5px;
+  }
